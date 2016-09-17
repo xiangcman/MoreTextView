@@ -1,7 +1,7 @@
 **该控件是一个带有展开和缩放功能的TextView**
 
 先看下效果图吧:
-![simple.gif](http://upload-images.jianshu.io/upload_images/2528336-ed1728b0dfb7addc.gif?imageMogr2/auto-orient/strip)
+![simple.gif](https://github.com/1002326270xc/MoreTextView/blob/master/photo/demo.gif)
 
 效果图做得不太好啊，大家到真机上面测试demo吧。
 
