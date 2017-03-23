@@ -13,7 +13,7 @@
 ## 使用:   
 
 **属性部分:**
-<pre><code>
+  <pre><code>
     <declare-styleable name="MoreTextStyle">     
         <attr name="mytextSize" format="dimension" />     
         <attr name="mytextColor" format="color" />    
@@ -21,7 +21,7 @@
         <attr name="text" format="string|reference" />    
         <attr name="expand" format="boolean" />
      </declare-styleable>
-</code></pre>
+   </code></pre>
 
 **mytextSize:** 显示的文字大小。
 
