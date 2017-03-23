@@ -12,14 +12,14 @@
 
 ## 使用:
 
-  <pre><code>
-  <declare-styleable name="MoreTextStyle">    
-    <attr name="mytextSize" format="dimension" />    
-    <attr name="mytextColor" format="color" />    
-    <attr name="maxLine" format="integer" />    
-    <attr name="text" format="string|reference" />    
-    <attr name="expand" format="boolean" />
-  </declare-styleable>
+   <pre><code>
+      <declare-styleable name="MoreTextStyle">     
+        <attr name="mytextSize" format="dimension" />     
+        <attr name="mytextColor" format="color" />    
+        <attr name="maxLine" format="integer" />     
+        <attr name="text" format="string|reference" />    
+        <attr name="expand" format="boolean" />
+     </declare-styleable>
   </code></pre>
 
 **mytextSize:** 显示的文字大小。
