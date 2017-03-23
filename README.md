@@ -5,12 +5,12 @@
 
 效果图做得不太好啊，大家到真机上面测试demo吧。
 
-##思路:
+## 思路:
 其实这个地方就是一个动画，实时地去改变textview的高度，来达到一个渐变的效果。这里的特色:
 - 能动态判断是否需要去显示更多的图标，如果用户的textView本来需要的行数大于自己定义的最大行数的话，此时才会有更多的功能。我这里定义的最大行数是3行，所以下面的textView会有更多的图标。而上面没有。
 - 能实现初始状态是否是展开的效果，这里可以通过xml布局文件去配置。
 
-##使用:
+## 使用:
   <pre><code>```
   <declare-styleable name="MoreTextStyle">    
     <attr name="mytextSize" format="dimension" />    
@@ -40,6 +40,7 @@
 
 就这么简单，赶快使用到你的项目中吧。
 
-##关于我:
-   - email: a1002326270@163.com
-   - 简书: http://www.jianshu.com/users/7b186b7247c1/latest_articles
+## 关于我:
+
+   - email:a1002326270@163.com
+   - 简书:http://www.jianshu.com/users/7b186b7247c1/latest_articles
