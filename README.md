@@ -13,15 +13,15 @@
 ## 使用:   
 
 **属性部分:**
-  ```xml
+```xml
     <declare-styleable name="MoreTextStyle">     
         <attr name="mytextSize" format="dimension" />     
         <attr name="mytextColor" format="color" />    
         <attr name="maxLine" format="integer" />     
         <attr name="text" format="string|reference" />    
         <attr name="expand" format="boolean" />
-     </declare-styleable>
-   ```
+     </declare-styleable>```
+     
 **mytextSize:** 显示的文字大小。
 
 **mytextColor:** 显示的文字的颜色。
