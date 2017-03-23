@@ -10,17 +10,18 @@
 - 能动态判断是否需要去显示更多的图标，如果用户的textView本来需要的行数大于自己定义的最大行数的话，此时才会有更多的功能。我这里定义的最大行数是3行，所以下面的textView会有更多的图标。而上面没有。
 - 能实现初始状态是否是展开的效果，这里可以通过xml布局文件去配置。
 
-## 使用:
+## 使用:   
 
-   <pre><code>
-      <declare-styleable name="MoreTextStyle">     
+**属性部分:**
+<pre><code>
+    <declare-styleable name="MoreTextStyle">     
         <attr name="mytextSize" format="dimension" />     
         <attr name="mytextColor" format="color" />    
         <attr name="maxLine" format="integer" />     
         <attr name="text" format="string|reference" />    
         <attr name="expand" format="boolean" />
      </declare-styleable>
-  </code></pre>
+</code></pre>
 
 **mytextSize:** 显示的文字大小。
 
@@ -42,6 +43,5 @@
 就这么简单，赶快使用到你的项目中吧。
 
 ## 关于我:
-
-   - email:a1002326270@163.com
-   - 简书:http://www.jianshu.com/users/7b186b7247c1/latest_articles
+- email:a1002326270@163.com
+- 简书:http://www.jianshu.com/users/7b186b7247c1/latest_articles
