@@ -11,6 +11,7 @@
 - 能实现初始状态是否是展开的效果，这里可以通过xml布局文件去配置。
 
 ## 使用:
+
   <pre><code>
   <declare-styleable name="MoreTextStyle">    
     <attr name="mytextSize" format="dimension" />    
@@ -21,15 +22,15 @@
   </declare-styleable>
   </code></pre>
 
-**mytextSize:**显示的文字大小。
+**mytextSize:** 显示的文字大小。
 
-**mytextColor:**显示的文字的颜色。
+**mytextColor:** 显示的文字的颜色。
 
-**maxLine:**最大行数的规定。
+**maxLine:** 最大行数的规定。
 
-**text:**显示的文本，这里建议不要通过xml文件设置文本的文字，通过代码去设置。
+**text:** 显示的文本，这里建议不要通过xml文件设置文本的文字，通过代码去设置。
 
-**expand:**初始状态是否是展开的，true的话，默认就是展开，反之缩进。
+**expand:** 初始状态是否是展开的，true的话，默认就是展开，反之缩进。
 
 **代码中要调用的方法:**
   <pre><code>
