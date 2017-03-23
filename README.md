@@ -20,7 +20,8 @@
         <attr name="maxLine" format="integer" />     
         <attr name="text" format="string|reference" />    
         <attr name="expand" format="boolean" />
-     </declare-styleable>```
+     </declare-styleable>
+ ```
      
 **mytextSize:** 显示的文字大小。
 
