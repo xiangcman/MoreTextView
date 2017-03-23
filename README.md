@@ -11,14 +11,14 @@
 - 能实现初始状态是否是展开的效果，这里可以通过xml布局文件去配置。
 
 ## 使用:
-  <pre><code>```
+  <pre><code>
   <declare-styleable name="MoreTextStyle">    
     <attr name="mytextSize" format="dimension" />    
     <attr name="mytextColor" format="color" />    
     <attr name="maxLine" format="integer" />    
     <attr name="text" format="string|reference" />    
     <attr name="expand" format="boolean" />
-  </declare-styleable>```
+  </declare-styleable>
   </code></pre>
 
 **mytextSize:**显示的文字大小。
@@ -32,10 +32,10 @@
 **expand:**初始状态是否是展开的，true的话，默认就是展开，反之缩进。
 
 **代码中要调用的方法:**
-  <pre><code>```
+  <pre><code>
   MoreTextView text1 = ((MoreTextView)findViewById(R.id.more));
   text1.setText(getResources().getString(R.string.text));
-  text1.refreshText();```
+  text1.refreshText();
   </code></pre>
 
 就这么简单，赶快使用到你的项目中吧。
